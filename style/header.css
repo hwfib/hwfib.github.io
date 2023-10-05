@@ -3,7 +3,6 @@
 /* fonts a importar al header */
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
 
-
 body {
   margin: 0;
   padding: 0;
@@ -56,7 +55,43 @@ header {
 }
 
 #menu a:hover {
-  color: #FF6B6B; /* Change to your preferred hover color */
+  color: #f49e4c; /* Change to your preferred hover color */
 }
 
+#menu-button {
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+}
 
+@media screen and (max-width: 1000px) {
+  /* Show the menu button and hide the menu */
+  #menu-button {
+    display: block;
+  }
+
+  #menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 80px; /* Adjust this value as needed */
+    right: 10px;
+    margin: 0;
+    padding: 0 20px 0 20px;
+    background-color: #3b8ea5;
+    text-align: center;
+  }
+
+  /* Style the menu items for small screens */
+  #menu li {
+    margin: 10px 0;
+  }
+
+  #menu-button.active + #menu,
+  @media screen and (min-width: 1001px) {
+    display: flex;
+  }
+}

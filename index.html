@@ -9,17 +9,48 @@
   <body>
     <header>
       <nav id="header-nav">
-        <img src="media/hardware.png" id="logo"></img>
+        <img src="media/hardware.png" id="logo" alt="Logo">
         <h1 id="title">HWFIB.com</h1>
-        <ul id="menu">
-          <li class="highlight"><a href="">INICI</a></li>
-          <li><a href="">FÒRUMS</a></li>
-          <li><a href="">ANÈCDOTES</a></li>
-          <li><a href="">CALENDARI HW</a></li>
-          <li><a href="">SOBRE NOSALTRES</a></li>
-        </ul>
       </nav>
+      <button id="menu-button">&#9776; MENU</button>
+      <ul id="menu">
+        <li class="highlight"><a href="">INICI</a></li>
+        <li><a href="">FÒRUMS</a></li>
+        <li><a href="">ANÈCDOTES</a></li>
+        <li><a href="">CALENDARI HW</a></li>
+        <li><a href="">SOBRE NOSALTRES</a></li>
+      </ul>
     </header>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.getElementById('menu-button');
+        const menu = document.getElementById('menu');
+        
+        menuButton.addEventListener('click', function () {
+            menu.classList.toggle('active'); // Toggle the 'active' class
+            handleMenuVisibility();
+        });
+
+        // Function to handle menu visibility based on screen width
+        function handleMenuVisibility() {
+            if (window.innerWidth <= 1000) {
+                menu.style.display = menu.classList.contains('active') ? 'flex' : 'none';
+            } else {
+                menu.style.display = 'flex';
+            }
+        }
+
+        // Initial call to set menu visibility based on screen width
+        handleMenuVisibility();
+
+        // Detect window resize to update menu visibility
+        window.addEventListener('resize', handleMenuVisibility);
+        
+      });
+    </script>
+
+
   </body>
 </html>
 
