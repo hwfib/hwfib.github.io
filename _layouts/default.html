@@ -9,16 +9,22 @@
     <header>
       <h1 align=left>hwfib.com</h1>
       <h3><i>Portal d'alumnes de hardware de la FIB</i></h3>
-      <ul>
-        <li><a href="index.html">Inici</a></li>
-        <li><a href="assigs.html">Assignatures</a></li>
-        <li><a href="wiki.html">MediaWiki</a></li>
-        <li><a href="interessant.html">Coses interessants</a></li>
-        <li><a href="merda.html"><b>Merda</b></a></li>
-        <li><a href="proj.html">El projecte</a></li>
-      </ul>
+      <nav>
+        <ul>
+          {% assign sorted_pages = site.pages | sort: 'order' %}
+          {% for p in sorted_pages %}
+            {% if p.url == page.url %}
+              <li><b><a href="{{ p.url }}">{{ p.title }}</a></b></li>
+            {% else %}
+              <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </nav>
     </header>
-    {{ content }}
+    <main>
+      {{ content }}
+    </main>
   </body>
 </html>
 
