@@ -52,6 +52,7 @@ L'assignatura es divideix, com més endavant també es dividirà MP, en dos:
 teoria i labs, 80% i 30% respectivament.  
 
 1.  Teoria
+
     La teoria és el que més val, un 80% i no obstant tampoc sembla ser la part
     més exigent en pes. Encara que cal dir que és la part que sense les
     pràctiques més de la meitat de la gent matriculada sol suspendre... El
