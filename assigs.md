@@ -1,4 +1,6 @@
 ---
+title: Assignatures
+order: 10
 ---
 
 ## Assignatures FIB
