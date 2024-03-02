@@ -13,10 +13,12 @@
         <ul>
           {% assign sorted_pages = site.pages | sort: 'order' %}
           {% for p in sorted_pages %}
-            {% if p.url == page.url %}
-              <li><b><a href="{{ p.url }}">{{ p.title }}</a></b></li>
-            {% else %}
-              <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+            {% if p.url != "" %} 
+              {% if p.url == page.url %}
+                <li><b><a href="{{ p.url }}">{{ p.title }}</a></b></li>
+              {% else %}
+                <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </ul>
