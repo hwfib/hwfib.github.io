@@ -16,7 +16,10 @@
             {% if p.url == page.url %}
               <li><b><a href="{{ p.url }}">{{ p.title }}</a></b></li>
             {% else %}
-              <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+              {% assign ext = page.path | split: "." | last %}
+              {% if ext == "md" %}
+                <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+              {% endif %}
             {% endif %}
           {% endfor %}
         </ul>
