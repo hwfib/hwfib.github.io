@@ -20,13 +20,8 @@ Aquest web està 100% mantingut per estudiants de la FIB, UPC sense cap ànim de
 lucre i apostant pel desenvolupament de software i hardware lliure.
 
 <div>
-  <img src="media/antinazi.gif" align=left />
-  <img src="media/transnow2.gif" align=left />
-  <img src="media/miku.gif" align=left />
-  <img src="media/blink-0.gif" align=left />
-  <img src="media/chrome.gif" align=left />
-  <img src="media/nft.gif" align=left />
-  <img src="media/f_ckfb.gif" align=left />
-  <img src="media/internetprivacy.gif" align=left />
-  <img src="media/nocookie.gif" align=left />
+  {% assign img_88x31s = site.static_files | where: "img_88x31", true %}
+  {% for img_88x31 in img_88x31s %}
+    <img src="{{img_88x31.path}}" align=left />
+  {% endfor %}
 </div>
