@@ -91,6 +91,89 @@ teoria i labs, 80% i 30% respectivament.
 
 ##### SO2 (Sistemes operatius 2)
 
+Si no us va agradar Sistemes Operatiu per què us vau quedar amb la sensació de què
+no era el què esperava, no us preocupeu, aquesta assignatura és la bona. Tot i
+això, s'entèn el motiu darrere del pre-requisit, ja que moltes de les bases que
+s'assenten a SO a SO2 us tocarà implementar-los.
+
+És una xulada, la part de laboratori sens dubte és la part estrella. Tot i que
+molta feina, i si, és molta feina, amb la motivació pels temes a desenvolupar
+es pot dur fàcilment al dia. A l'assignatura et donen un esquelet buit de sistema
+operatiu que només fa la fase de checking i boot del hardware sobre el qual
+s'haurà de fer un sistema operatiu mínim en monoprocessador x86. La veritat és
+que va ser molt gratificant veure com crides a funcions i interfícies estudiades
+a classe prenien vida després d'hores de programació i depuració. Sobretot el
+tema de la gestió de memòria i processos concurrents ens va donar bastanta guerra.
+Això si, estigueu preparats per programar en C vainilla per un tub, i amb moltissima
+gestió del hardware a baix nivell, així com la gestió en ensamblador x86 de 32 bits,
+ja après a AC en el quadrimestre natural anterior.
+
+La part de teoria, però, segueix valent la meitat de la nota de l'assignatura i
+aquí si que no us espereu canvis innesperats en el transcurs del vostre aprenentatge
+sobre sistemes, és teoria, i teoria dura. Les classes magistrals es fan a
+cortessia del professor titular, al menys a dia d'avui (2023/24), amb l'Àlex Pajuelo.
+Un gran professor i super apasionat per transmetre el coneixement de sistemes als
+estudiants, cap problema en escriure mails preguntant per curiositats o extensions
+d'alguns conceptes difícils explicats a classe que més endavant a CASO es donaran
+per coneguts.
+
+Desgraciadament, tant la part de teoria com la primera meitat de les pràctiques són
+compartides amb estudiants de SOA, de l'especialitat de Tecnologies de la
+Informació, amb qui anireu coincidint durant el transcurs dels següents anys...
+Òbviament però, ells tenen menys complexitat a la part hardware de la pràctica i
+s'estalvien una no gaire complicada però que si roba temps de la competència
+transversal de comunicació escrita i recerca d'informació.
+
 ### Assignatures optatives de modalitat
 
 ##### PDS (Processament digital de senyal)
+
+PDS o processament digital de senyal és una assignatura complementària de modalitat
+de la branca de l'ESAII. És una de les assignatures "bolet" de la carrera però tot i
+això ha estat de les meves preferides de la modalitat. Es podria compartir gran part
+del temari amb assignatures de processament digital de *telecos* això si, amb un
+spice diferent a micros.
+
+L'assignatura és 100% pràctica des de fa algunes generacions, tot i que al passat
+no ho va ser i m'imagino l'infern que suposaria la part teòrica. A teoria es donen les
+bases del mostreix i del processament digital de senyals analògiques per acabar donant
+amb les teories dels filtres FIR i IIR, tant importants a les comunicacions de dia
+d'avui. Això si, cal estar minimanent atent a les classes per no acabar perdut en un
+mar d'àlgebra vectorial i teoria complexa bastant complicada per al nivell al que estem
+acostumats.
+
+L'avaluació pràctica es podria distingir en tres grans blocs:
+
+1.  Pràctiques de *Matlab*
+
+    Va ser la primera i única, de moment, assignatura on hem tocat *Matlab*... I no, per
+    als informàtics no va ser gens complicat, de fet, tot al contrari, la seva sintaxi
+    més que intuïtiva pròpia dels llenguatges interpretats, com *R* o *Python* que amb
+    una mica de mala sort ja us haureu trobat al llarg de la carrera, va fer de 
+    l'experiència molt agradable. Especialment per què a posteriori tornareu al *C* per
+    programar un nou xipset integrat, el *DSP*.
+
+    Les pràctiques són molt guiades i s'hi apliquen directament els continguts matemàtics
+    estudiats a teoria. Els resultats de les quals s'hauran de lliurar en format entrega
+    amb tots els gràfics i comentaris addients. Realment és tot un avantatge poder
+    fer tot allò per consolidar conceptes, principalment al voltant de la transformada
+    i sèries de Fourier i dels filtres FIR i IIR, abans d'implementar-ne part
+
+2.  Laboratoris amb *DSP*
+
+    Aquesta és la part més xula de l'assignatura. Podreu fer un *hands-on* amb un DSP
+    o *Digital Signal Processor* de Texas Instruments (no pas missils però)... 
+    Òbviament programant-lo amb C i amb un IDE que deixa massa a desitjar, però. Són 
+    unes quantes sessions introductòries fins a les últimes pràctiques, on podreu definir 
+    buffers circulars amb les dades mostrejades i fer ecos, delays i filtres sobre el so 
+    d'un micròfon.
+
+3.  Presentació i recerca
+
+    Finalment hi ha una presentació, la qual també comptarà tant per a la Competència
+    Transversal d'expressió oral i escrita com un 20% de treball de recerca sobre 
+    aplicacions de *DSP*s a la vida real. Nostres per exemple vam fer un treball força
+    extens sobre la Ràdio Definida per Software (SDRs) amb una demo final pràctica
+    el dia de la presentació. És la típica entrega que pot arribar a fer molta mandra
+    però si li dediques suficients hores pots arribar a aprendre prou sobre temes
+    de gran interés i prendre'n partit.
