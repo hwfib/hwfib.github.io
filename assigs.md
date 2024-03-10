@@ -11,7 +11,7 @@ modalitat cursar. La resposta és ben senzilla, **òbviament hardware**!
 
 ### Assignatures obligatòries de modalitat
 
-##### DSBM (Disseny de sistemes basats en microcontroladors)
+##### DSBM (Disseny de sistemes basats en microcomputadors)
 
 La segona entrega de l'ESAII... Es pot entendre com la continuació de CI, però
 traient-ne tot el que és avorrit. DSBM, que no BDSM (a tots ens costa no cagar-la)
