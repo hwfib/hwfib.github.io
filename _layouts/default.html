@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cat">
+<html lang="ca">
   <head>
     <meta charset="UTF-8">
     <meta name="color-scheme" content="dark light">
@@ -7,10 +7,10 @@
   </head>
   <body>
     <header>
-      <h1 align=left>hwfib.com</h1>
+      <h1>hwfib.com</h1>
       <h3><i>Portal d'alumnes de hardware de la FIB</i></h3>
       <nav>
-        <ul>
+        <menu>
           {% assign sorted_pages = site.pages | sort: 'order' %}
           {% for p in sorted_pages %}
             {% if p.url == page.url %}
@@ -19,7 +19,7 @@
               <li><a href="{{ p.url }}">{{ p.title }}</a></li>
             {% endif %}
           {% endfor %}
-        </ul>
+        </menu>
       </nav>
     </header>
     <main>
