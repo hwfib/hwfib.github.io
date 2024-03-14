@@ -1,2 +1,7 @@
 ---
 theme: null
+defaults:
+  - scope:
+      path: "assets/88x31"
+    values:
+      img_88x31: true
