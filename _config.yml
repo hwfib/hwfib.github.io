@@ -5,3 +5,6 @@ defaults:
       path: "assets/88x31"
     values:
       img_88x31: true
+collections:
+  assignatures:
+    sort_by: codi
