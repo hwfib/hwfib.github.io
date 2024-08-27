@@ -1,6 +1,6 @@
 ---
-codi: SOII
-nom: Sistemes operatius II
+codi: SO2
+nom: Sistemes operatius 2
 tipus: Obligatoria
 ---
 Si no us va agradar *Sistemes Operatiu* per què us vau quedar amb la sensació que

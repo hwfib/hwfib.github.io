@@ -1,6 +1,6 @@
 ---
-codi: XCII
-nom: Xarxes de computadors II
+codi: XC2
+nom: Xarxes de computadors 2
 tipus: Obligatoria
 ---
 

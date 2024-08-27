@@ -1,6 +1,6 @@
 ---
-codi: ACII
-nom: Arquitectura de computadors II
+codi: AC2
+nom: Arquitectura de computadors 2 
 tipus: Obligatoria
 ---
 
