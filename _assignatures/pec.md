@@ -1,6 +1,6 @@
 ---
-codi: PEC 
-nom: Projecte d'Enginyeria de Computadors 
+codi: PEC
+nom: Projecte d'Enginyeria de Computadors
 tipus: Obligatoria
 ---
 
@@ -9,8 +9,8 @@ s'hi aplicaràn molts dels coneixements apresos durant el grau per a desenvolupa
 un projecte de Hardware. Igualment, la experiència de l'assignatura depèn molt de
 la persona a qui li preguntis. Això, en principi es deu a que hi ha dos projectes
 assignats a departaments diferents, AC i ESAII, els quals es rifen quadrimestre si
-i quadrimestre no cursar-la, èssent ambdos de naturalesa totalment diferent. En tot cas, 
-diria que hi ha quòrum en acceptar que en qualsevol de les seves variants hi ha 
+i quadrimestre no cursar-la, èssent ambdos de naturalesa totalment diferent. En tot cas,
+diria que hi ha quòrum en acceptar que en qualsevol de les seves variants hi ha
 força càrrega de treball.
 
 En el meu cas, i en el preferent per a la majoria dels estudiants de la especialitat,
@@ -25,7 +25,7 @@ donats en mode sistema. Amb l'objectiu de bolcar-lo sobre una placa FPGA senzill
 a provar el funcionament sobre HW real. Les plaques FPGA són, en paraules senzilles,
 xips integrats amb elements lògics capaços de replicar Hardware programable a nivell
 porta. Per a fer la descripció del Hardware s'utilitza, al menys fins a dia d'avui el
-llenguatge de descripció de Hardware RTL (a nivell lògic) _VHDL_. No obstant, per la 
+llenguatge de descripció de Hardware RTL (a nivell lògic) _VHDL_. No obstant, per la
 seva sintaxi complicada i envelliment clar, poder durant els pròxims anys s'acaba
 substituint pel més extès a la indústria _SystemVerilog_. En qualsevol cas, són molt
 similars i et permetran escriure els mòduls necessaris per descriure el processador.

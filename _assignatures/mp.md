@@ -1,10 +1,10 @@
 ---
-codi: MP 
-nom: Multiprocessadors 
+codi: MP
+nom: Multiprocessadors
 tipus: Obligatoria
 ---
 
-Benvinguts a Arquitectura de Computadors III, oficialment anomenada Multiprocessadors.
+Benvinguts a Arquitectura de Computadors 2, oficialment anomenada Multiprocessadors.
 I és que l'existència d'aquesta assignatura culmina amb el llarg camí d'assignatures de
 la modalitat per si encara te'n sobraven energies. Es podria entendre com el boss final
 del departament dirigida i impartida per una llegenda de la factultat, en Jose Maria
@@ -15,11 +15,11 @@ preguntis. I, personalment, he d'admetre que aquests és un dels millors que he 
 mai, pel que a nivell s'hi refereix.
 
 A classes de teoria es continua amb la mateixa línia de l'antiga Arquitectura de
-Computadors II, oficialment a dia d'avui 2023/24-Q2 encara amb el pla original també
+Computadors 2, oficialment a dia d'avui 2023/24-Q2 encara amb el pla original també
 plantejat per en Llaberia. Les classes es plantejen de forma magistral, però no pas
 de còpia, sinó d'entendre, assimilar i prendre apunts. En aquestes es parteix del
 monoprocessador vist fins el moment i dels coneixements previs d'assignatures anteriors
-com PAR (_Paral·lelisme_) per ampliar-los a baix nivell fins a perdre's en la 
+com PAR (_Paral·lelisme_) per ampliar-los a baix nivell fins a perdre's en la
 immensitat de protocols de coherència i mecanismes de consistència de memòria per
 aconseguir el Multiprocessador, més o menys modern. Realment una eina molt potent
 però perillosa de cara a la seva dificultat.

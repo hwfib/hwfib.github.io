@@ -8,7 +8,7 @@ Una altra segona part que millora amb creus la seva predecessora. La veritat
 és que, tot i haver-se convertit en una assignatura "bolet" de TI en mig de la
 especialitat, el seu professor, en Dàvide Caregglio, i la seva metodologia
 d'ensenyar l'acaben convertint en una assignatura estimada per l'estudiantat.
-La càrrega es podria considerar prou baixa, especialment en comparació amb la 
+La càrrega es podria considerar prou baixa, especialment en comparació amb la
 resta d'assignatures obligatóries d'especialitat amb les que encaixa dins el
 quadri natural.
 

@@ -1,6 +1,6 @@
 ---
 codi: AC2
-nom: Arquitectura de computadors 2 
+nom: Arquitectura de computadors 2
 tipus: Obligatoria
 ---
 

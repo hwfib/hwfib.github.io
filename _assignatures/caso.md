@@ -1,6 +1,6 @@
 ---
 codi: CASO
-nom: Conceptes Avançats de Sistemes Operatius 
+nom: Conceptes Avançats de Sistemes Operatius
 tipus: Optativa
 ---
 
@@ -13,7 +13,7 @@ sort en el passat segur recordareu de la primera i ja llunyana _Sistemes Operati
 És un professor excel·lent, tot i que per entendre la teoria s'ha de tenir una mica
 d'orella per a seguir els fils d'explicacions sobre curiositats històriques i experiències
 de primera mà sobre elles. Realment molt interessant, a la teoria es repassen molt
-superficialment conceptes ja explicats a _SO_ i _SOII_ per a entendre conceptes molt
+superficialment conceptes ja explicats a _SO_ i _SO2_ per a entendre conceptes molt
 més especifics de sistemes no tocats fins el moment. Un exemple n'és el començament de
 l'assignatura i el MicroKernel MACH, vital per entendre l'estructura modular del
 kernel actual de MacOS, amb el que es jugarà al laboratori. També se n'aprén moltíssim
@@ -27,5 +27,5 @@ fent pràctiques setmana a setmana sobre diferents temes, alguns d'ells ja parla
 a teoria. L'objectiu és experimentar, provar i aprendre amb conceptes específics i
 avançats de sistemes operatius. I és així fins i tot als examens de laboratori i també
 de teoria. Si es té curiositat en aquest àmbit del Software a molt baix nivell, poder
-no tant baix nivell com la ja cursada _Sistemes Operatius II_, és una assignatura
+no tant baix nivell com la ja cursada _Sistemes Operatius 2_, és una assignatura
 molt recomanable i apassionant.
