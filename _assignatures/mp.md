@@ -4,7 +4,7 @@ nom: Multiprocessadors
 tipus: Obligatoria
 ---
 
-Benvinguts a Arquitectura de Computadors 2, oficialment anomenada Multiprocessadors.
+Benvinguts a Arquitectura de Computadors 3, oficialment anomenada Multiprocessadors.
 I és que l'existència d'aquesta assignatura culmina amb el llarg camí d'assignatures de
 la modalitat per si encara te'n sobraven energies. Es podria entendre com el boss final
 del departament dirigida i impartida per una llegenda de la factultat, en Jose Maria
@@ -24,13 +24,13 @@ immensitat de protocols de coherència i mecanismes de consistència de memòria
 aconseguir el Multiprocessador, més o menys modern. Realment una eina molt potent
 però perillosa de cara a la seva dificultat.
 
-Els laboratoris acompanyen a la teoria. no obstant són els grans temuts per tothom.
+Els laboratoris acompanyen a la teoria. No obstant, són els grans temuts per tothom.
 Això es deu a que en Llaberia aprofita l'hora setmanal per fer que els alumnes siguin
 els qui resolguin els exercicis plantejats a la pissarra, els quals molts somiarien
 de trobar-los resolts. A la realitat, segurament cap dels estudiants que han passat
 per aquí els ha acabat en la seva totalitat.
 
-Finalment els laboratoris segueixen en la mateixa línia que els antics labs d'ACII.
+Finalment, els laboratoris segueixen en la mateixa línia que els antics labs d'ACII.
 Amb un total de 4 laboratoris cadascun amb un mínim de 120 pàgines d'enunciats.
 Aquests et fan endisar-te en sobretot les màquines d'estat responsables de la gestió
 de memòria cache per aconseguir la coherència i la consistència a estudiar mitjançant
@@ -38,5 +38,5 @@ diferents mecanismes. Realment, la càrrega de feina que representen val molt m�
 20% de nota que pesen a la final, encara que sense aquests resultarà complicat per
 molts aconseguir passar la línia de l'aprovat. També els projectes replets d'enllaços
 dèbils als projectes de les pràctiques anteriors compliquen molts processos que haurien
-de resultar molt més senzills. No obstant, no em deixa de semblar interessant arribar
+de resultar molt més senzills. No em deixa de semblar interessant però, arribar
 a tocar pràcticament la gestió de memòria del processador.
