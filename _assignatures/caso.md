@@ -4,7 +4,7 @@ nom: Conceptes Avançats de Sistemes Operatius
 tipus: Optativa
 ---
 
-Antiquissima assignatura de les especialitats d'enginyeria de computadors i de tecnologies
+Antiquíssima assignatura de les especialitats d'enginyeria de computadors i de tecnologies
 de la informació. Gestionada per l'investigador de gran renom del BSC Xavier Martorell des
 de fa molts anys, és la fita final de Sistemes Operatius del grau.
 
